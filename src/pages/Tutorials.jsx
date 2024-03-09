@@ -1,5 +1,11 @@
+import Navbar from "../components/Navbar";
+
 const Tutorials = () => {
-  return <div></div>;
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 };
 
 export default Tutorials;
