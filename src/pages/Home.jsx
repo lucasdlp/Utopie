@@ -1,9 +1,14 @@
-import Navbar from "../components/Navbar";
+import { useEffect } from "react";
+import SearchBar from "../components/SearchBar";
 
 const Home = () => {
+  useEffect(() => {
+    document.title = "Utopie - Accueil";
+  });
+
   return (
-    <div>
-      <Navbar />
+    <div className="content">
+      <SearchBar />
       <main></main>
     </div>
   );

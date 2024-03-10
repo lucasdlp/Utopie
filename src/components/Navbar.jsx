@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="bg-secondary flex flex-col align-left w-1/6 h-screen px-5 py-5 fixed">
+    <nav className="bg-secondary flex flex-col align-left w-1/5 h-screen px-5 py-5 fixed">
       <div className="mb-8">
         <NavLink className="nav_link" to="/">
           <img className="w-44" src="assets/logo.svg" alt="Utopie" />
@@ -16,7 +16,7 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink className="nav_link" to="/games">
+          <NavLink className="nav_link" to="/jeux">
             <img src="assets/svg/games.svg" alt="jeux" />
             Jeux
           </NavLink>

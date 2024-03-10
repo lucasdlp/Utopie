@@ -1,12 +1,11 @@
-import React from "react";
-import Navbar from "../components/Navbar";
+import React, { useEffect } from "react";
 
 const Games = () => {
-  return (
-    <>
-      <Navbar />
-    </>
-  );
+  useEffect(() => {
+    document.title = "Utopie - Jeux";
+  });
+
+  return <div className="content"></div>;
 };
 
 export default Games;

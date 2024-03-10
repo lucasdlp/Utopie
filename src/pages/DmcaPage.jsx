@@ -1,11 +1,11 @@
-import Navbar from "../components/Navbar";
+import { useEffect } from "react";
 
 const DmcaPage = () => {
-  return (
-    <div>
-      <Navbar />
-    </div>
-  );
+  useEffect(() => {
+    document.title = "Utopie - DMCA";
+  });
+
+  return <div className="content"></div>;
 };
 
 export default DmcaPage;
