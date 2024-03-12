@@ -8,7 +8,7 @@ const Navbar = () => {
           <img className="w-44" src="assets/logo.svg" alt="Utopie" />
         </NavLink>
       </div>
-      <ul className="nav_links flex flex-col gap-7 ml-5">
+      <ul className="nav_links flex flex-col gap-12 ml-5 mt-5">
         <li>
           <NavLink className="nav_link" to="/">
             <img src="assets/svg/home.svg" alt="Menu" />

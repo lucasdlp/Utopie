@@ -5,7 +5,7 @@ const Support = () => {
     document.title = "Utopie - Support";
   });
 
-  return <div className="content"></div>;
+  return <div></div>;
 };
 
 export default Support;

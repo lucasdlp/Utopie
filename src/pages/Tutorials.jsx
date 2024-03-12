@@ -5,7 +5,7 @@ const Tutorials = () => {
     document.title = "Utopie - Tutoriels";
   });
 
-  return <div className="content"></div>;
+  return <div></div>;
 };
 
 export default Tutorials;

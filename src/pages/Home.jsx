@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import SearchBar from "../components/SearchBar";
 
 const Home = () => {
   useEffect(() => {
@@ -7,8 +6,7 @@ const Home = () => {
   });
 
   return (
-    <div className="content">
-      <SearchBar />
+    <div>
       <main></main>
     </div>
   );

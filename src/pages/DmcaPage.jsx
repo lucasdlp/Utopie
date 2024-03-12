@@ -5,7 +5,7 @@ const DmcaPage = () => {
     document.title = "Utopie - DMCA";
   });
 
-  return <div className="content"></div>;
+  return <div></div>;
 };
 
 export default DmcaPage;
